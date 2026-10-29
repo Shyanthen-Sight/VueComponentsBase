@@ -15,5 +15,7 @@ const app = createApp(App)
 // 全局注册组件，在main里一次注册，整个工程范围内均可直接使用。
 // 在vue3和vite开发环境下，尽量避免或不用
 // app.component('my-component', MyComponent)
+//全局注册指令
+//app.provide('my-service', myService)
 
 app.mount('#app')
