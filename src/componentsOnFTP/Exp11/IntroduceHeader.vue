@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
   content: {
-    type: Object,
+    type: Object,//要求是对象
     required: true,
   },
 })

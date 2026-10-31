@@ -10,6 +10,12 @@ import AfterTitle from './AfterTitle.vue'
       <template #settlement="slotSettlement">
         <p>{{ slotSettlement.sx }}</p>
       </template>
+      <!-- 
+      还有一种写法（解构）
+      <template #settlement="{sx}">
+        <p>{{ sx }}</p>
+      </template>
+       -->
       <template #customer="slotCustomer">
         <p>{{ slotCustomer.cx }}</p>
       </template>
