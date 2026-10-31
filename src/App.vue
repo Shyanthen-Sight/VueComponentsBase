@@ -1,10 +1,11 @@
 <template>
   <h2>组件应用</h2>
-  <Exp2_ChildToParent_Parent />
+  <TemplateRefs3_Ref_Vfor>  </TemplateRefs3_Ref_Vfor>
 </template>
 
 <script setup>
-import Exp2_ChildToParent_Parent from './componentsOnFTP/Exp2/Exp2_ChildToParent_Parent.vue/index.js'
+import TemplateRefs3_Ref_Vfor from './componentsOnFTP/Exp12/TemplateRefs3_Ref_Vfor.vue';
+
 </script>
 
 <style scoped></style>
